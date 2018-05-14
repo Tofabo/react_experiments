@@ -1,0 +1,17 @@
+.Link {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 60px;
+}
+
+.Link:hover {
+    background-color: lavender;
+    border-bottom: 5px solid grey;
+    color: purple;
+}
+
