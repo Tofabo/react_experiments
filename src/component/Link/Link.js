@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './Link.css';
+import classes from './Link.css';
 
 const link = (props) => {
     return (
-        <Link className="Link" onClick={props.clicked} to={props.path}>{props.children}</Link>
+        <Link className={classes.Link} onClick={props.clicked} to={props.path}>{props.children}</Link>
     );
 }
 
